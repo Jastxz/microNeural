@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("/v0")
-public class SearchController {
+public class NeuralController {
 
     @PostMapping("/tresenraya")
     public ResponseEntity<?> calculaJugadaRaya(@RequestBody MundoRequest request) {

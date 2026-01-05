@@ -19,8 +19,8 @@ import java.io.IOException;
 @Component
 public class RequestsLimitFilter implements Filter {
 
-    private static final int MAX_REQUESTS_GLOBAL = 50;
-    private static final int MAX_REQUESTS_USER = 15;
+    private static final int MAX_REQUESTS_GLOBAL = 100;
+    private static final int MAX_REQUESTS_USER = 30;
 
     private static final long TIME_WINDOW_MILLIS = 10_000; // 10 segundos
     private static final long GLOBAL_ID = 1L;
