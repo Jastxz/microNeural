@@ -1,11 +1,11 @@
-package org.javig.micro_neural.controller;
+package es.jastxz.micro_neural.controller;
 
-import org.javig.micro_neural.model.ErrorResponse;
-import org.javig.micro_neural.model.MundoRequest;
-import org.javig.micro_neural.model.TableroResponse;
-import org.javig.services.ServicioPredicciones;
-import org.javig.tipos.Movimiento;
-import org.javig.util.Util;
+import es.jastxz.micro_neural.model.ErrorResponse;
+import es.jastxz.micro_neural.model.MundoRequest;
+import es.jastxz.micro_neural.model.TableroResponse;
+import es.jastxz.services.ServicioPredicciones;
+import es.jastxz.tipos.Movimiento;
+import es.jastxz.util.Util;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;

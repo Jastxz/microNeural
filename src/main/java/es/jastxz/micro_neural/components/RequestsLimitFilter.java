@@ -1,4 +1,4 @@
-package org.javig.micro_neural.components;
+package es.jastxz.micro_neural.components;
 
 import jakarta.servlet.Filter;
 import jakarta.servlet.FilterChain;
@@ -8,10 +8,10 @@ import jakarta.servlet.ServletResponse;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-import org.javig.micro_neural.model.GlobalRequest;
-import org.javig.micro_neural.model.UserRequest;
-import org.javig.micro_neural.repo.GlobalRequestRepo;
-import org.javig.micro_neural.repo.UserRequestRepo;
+import es.jastxz.micro_neural.model.GlobalRequest;
+import es.jastxz.micro_neural.model.UserRequest;
+import es.jastxz.micro_neural.repo.GlobalRequestRepo;
+import es.jastxz.micro_neural.repo.UserRequestRepo;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;

@@ -23,11 +23,15 @@ spring:
     console:
       enabled: false # Deshabilitado en producción por seguridad
 
+  web:
+    cors:
+      enabled: false
+
 # Configuración de logging
 logging:
   level:
     root: WARN
-    org.javig.micro-neural: INFO
+    es.jastxz.micro-neural: INFO
     org.springframework: WARN
     org.hibernate: WARN
   pattern:

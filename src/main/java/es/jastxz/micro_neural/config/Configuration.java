@@ -1,4 +1,4 @@
-package org.javig.micro_neural.config;
+package es.jastxz.micro_neural.config;
 
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.stereotype.Component;

@@ -23,11 +23,15 @@ spring:
     console:
       enabled: true # Habilitado en desarrollo
 
+  web:
+    cors:
+      enabled: false
+
 # Configuración de logging
 logging:
   level:
     root: INFO
-    org.javig.micro-neural: INFO
+    es.jastxz.micro-neural: INFO
     org.springframework: INFO
     org.hibernate: INFO
   pattern:

@@ -16,7 +16,7 @@ Currently, the service supports the following games:
 - **Spring Boot 4.0.1**: A framework for building the microservice.
 - **Lombok**: Annotation library to reduce boilerplate code.
 - **H2 Database**: In-memory database for potential data persistence needs.
-- **Neural Lib**: A custom library (`org.javig:neural-lib`) used for the underlying neural network and game logic.
+- **Neural Lib**: A custom library (`es.jastxz:neural-lib`) used for the underlying neural network and game logic.
 - **Maven**: Dependency management and build tool.
 
 ## Prerequisites

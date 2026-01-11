@@ -1,4 +1,4 @@
-package org.javig.micro_neural.model;
+package es.jastxz.micro_neural.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package org.javig.micro_neural.aspect;
+package es.jastxz.micro_neural.aspect;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -13,7 +13,7 @@ public class LoggerAspect {
 
     private static final Logger logger = LogManager.getLogger(LoggerAspect.class);
 
-    @Around("execution(* org.javig.micro_neural.service.NeuralService.calculaJugada(..))")
+    @Around("execution(* es.jastxz.micro_neural.service.NeuralService.calculaJugada(..))")
     public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
         logger.debug("Propiedades mundo: {}", joinPoint.getArgs()[0]);
         return joinPoint.proceed();
