@@ -3,9 +3,19 @@ when:
   event: [push, pull_request]
 
 steps:
-  maven_build:
-    image: maven:3.9.11-amazoncorretto-24-al2023
+  install_engine_lib:
+    image: maven:3.9.11-eclipse-temurin-21
     commands:
+      - apt-get update && apt-get install -y git
+      - cd /tmp
+      - git clone https://github.com/Jastxz/engine-lib.git
+      - cd engine-lib/engine-lib
+      - mvn clean install -DskipTests
+      - cd /tmp
+      - git clone https://github.com/Jastxz/neural-lib.git
+      - cd neural-lib
+      - mvn clean install -DskipTests
+      - cd /woodpecker/src/github.com/${CI_REPO}
       - mvn -B -ntp clean package -DskipTests
 
   build_push_image:
