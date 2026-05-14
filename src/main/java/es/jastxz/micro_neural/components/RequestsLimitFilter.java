@@ -40,7 +40,7 @@ public class RequestsLimitFilter implements Filter {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         String endpoint = httpRequest.getRequestURI();
 
-        String clientId = request.getRemoteAddr();
+        String clientId = getClientIp(httpRequest);
         long currentTime = System.currentTimeMillis();
 
         GlobalRequest globalLog = globalRequestRepo.findById(GLOBAL_ID)
@@ -99,6 +99,20 @@ public class RequestsLimitFilter implements Filter {
         user.setRequestCount(0);
         user.setLastRequestTimestamp(0);
         return user;
+    }
+
+    private String getClientIp(HttpServletRequest request) {
+        String ip = request.getHeader("X-Forwarded-For");
+        if (ip == null || ip.isEmpty()) {
+            ip = request.getHeader("X-Real-IP");
+        }
+        if (ip == null || ip.isEmpty()) {
+            ip = request.getRemoteAddr();
+        }
+        if (ip != null && ip.contains(",")) {
+            ip = ip.split(",")[0].trim();
+        }
+        return ip;
     }
 
     private void sendRateLimitResponse(ServletResponse response, String message) throws IOException {
