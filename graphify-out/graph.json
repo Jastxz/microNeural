@@ -1,0 +1,1527 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "MicroNeuralApplication.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/MicroNeuralApplication.java",
+      "source_location": "L1",
+      "id": "micro_neural_microneuralapplication",
+      "community": 6,
+      "norm_label": "microneuralapplication.java"
+    },
+    {
+      "label": "MicroNeuralApplication",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/MicroNeuralApplication.java",
+      "source_location": "L6",
+      "id": "micro_neural_microneuralapplication_microneuralapplication",
+      "community": 6,
+      "norm_label": "microneuralapplication"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/MicroNeuralApplication.java",
+      "source_location": "L9",
+      "id": "micro_neural_microneuralapplication_microneuralapplication_main",
+      "community": 6,
+      "norm_label": ".main()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/MicroNeuralApplication.java",
+      "source_location": "L9",
+      "id": "src_main_java_es_jastxz_micro_neural_microneuralapplication_java_string",
+      "community": 6,
+      "norm_label": "string"
+    },
+    {
+      "label": "LoggerAspect.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/aspect/LoggerAspect.java",
+      "source_location": "L1",
+      "id": "aspect_loggeraspect",
+      "community": 1,
+      "norm_label": "loggeraspect.java"
+    },
+    {
+      "label": "LoggerAspect",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/aspect/LoggerAspect.java",
+      "source_location": "L10",
+      "id": "aspect_loggeraspect_loggeraspect",
+      "community": 1,
+      "norm_label": "loggeraspect"
+    },
+    {
+      "label": ".logExecutionTime()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/aspect/LoggerAspect.java",
+      "source_location": "L16",
+      "id": "aspect_loggeraspect_loggeraspect_logexecutiontime",
+      "community": 1,
+      "norm_label": ".logexecutiontime()"
+    },
+    {
+      "label": "ProceedingJoinPoint",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/aspect/LoggerAspect.java",
+      "source_location": "L16",
+      "id": "proceedingjoinpoint",
+      "community": 1,
+      "norm_label": "proceedingjoinpoint"
+    },
+    {
+      "label": "Object",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/aspect/LoggerAspect.java",
+      "source_location": "L16",
+      "id": "object",
+      "community": 1,
+      "norm_label": "object"
+    },
+    {
+      "label": "Around",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/aspect/LoggerAspect.java",
+      "source_location": "L16",
+      "id": "around",
+      "community": 1,
+      "norm_label": "around"
+    },
+    {
+      "label": "RequestsLimitFilter.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L1",
+      "id": "components_requestslimitfilter",
+      "community": 2,
+      "norm_label": "requestslimitfilter.java"
+    },
+    {
+      "label": "RequestsLimitFilter",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L19",
+      "id": "components_requestslimitfilter_requestslimitfilter",
+      "community": 3,
+      "norm_label": "requestslimitfilter"
+    },
+    {
+      "label": "Filter",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "filter",
+      "community": 2,
+      "norm_label": "filter"
+    },
+    {
+      "label": ".RequestsLimitFilter()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L31",
+      "id": "components_requestslimitfilter_requestslimitfilter_requestslimitfilter",
+      "community": 2,
+      "norm_label": ".requestslimitfilter()"
+    },
+    {
+      "label": "GlobalRequestRepo",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L31",
+      "id": "globalrequestrepo",
+      "community": 2,
+      "norm_label": "globalrequestrepo"
+    },
+    {
+      "label": "UserRequestRepo",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L31",
+      "id": "userrequestrepo",
+      "community": 2,
+      "norm_label": "userrequestrepo"
+    },
+    {
+      "label": ".doFilter()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L36",
+      "id": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "community": 4,
+      "norm_label": ".dofilter()"
+    },
+    {
+      "label": "ServletRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L36",
+      "id": "servletrequest",
+      "community": 2,
+      "norm_label": "servletrequest"
+    },
+    {
+      "label": "ServletResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L36",
+      "id": "servletresponse",
+      "community": 4,
+      "norm_label": "servletresponse"
+    },
+    {
+      "label": "FilterChain",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L36",
+      "id": "filterchain",
+      "community": 4,
+      "norm_label": "filterchain"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L36",
+      "id": "override",
+      "community": 4,
+      "norm_label": "override"
+    },
+    {
+      "label": ".isTimeWindowExpired()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L84",
+      "id": "components_requestslimitfilter_requestslimitfilter_istimewindowexpired",
+      "community": 3,
+      "norm_label": ".istimewindowexpired()"
+    },
+    {
+      "label": ".createNewGlobalRequest()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L88",
+      "id": "components_requestslimitfilter_requestslimitfilter_createnewglobalrequest",
+      "community": 5,
+      "norm_label": ".createnewglobalrequest()"
+    },
+    {
+      "label": "GlobalRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L88",
+      "id": "globalrequest",
+      "community": 5,
+      "norm_label": "globalrequest"
+    },
+    {
+      "label": ".createNewUserRequest()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L96",
+      "id": "components_requestslimitfilter_requestslimitfilter_createnewuserrequest",
+      "community": 3,
+      "norm_label": ".createnewuserrequest()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L96",
+      "id": "src_main_java_es_jastxz_micro_neural_components_requestslimitfilter_java_string",
+      "community": 3,
+      "norm_label": "string"
+    },
+    {
+      "label": "UserRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L96",
+      "id": "userrequest",
+      "community": 9,
+      "norm_label": "userrequest"
+    },
+    {
+      "label": ".getClientIp()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L104",
+      "id": "components_requestslimitfilter_requestslimitfilter_getclientip",
+      "community": 3,
+      "norm_label": ".getclientip()"
+    },
+    {
+      "label": "HttpServletRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L104",
+      "id": "httpservletrequest",
+      "community": 3,
+      "norm_label": "httpservletrequest"
+    },
+    {
+      "label": ".sendRateLimitResponse()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L118",
+      "id": "components_requestslimitfilter_requestslimitfilter_sendratelimitresponse",
+      "community": 4,
+      "norm_label": ".sendratelimitresponse()"
+    },
+    {
+      "label": "Configuration.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/config/Configuration.java",
+      "source_location": "L1",
+      "id": "config_configuration",
+      "community": 10,
+      "norm_label": "configuration.java"
+    },
+    {
+      "label": "Configuration",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/config/Configuration.java",
+      "source_location": "L6",
+      "id": "config_configuration_configuration",
+      "community": 10,
+      "norm_label": "configuration"
+    },
+    {
+      "label": "NeuralController.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L1",
+      "id": "controller_neuralcontroller",
+      "community": 0,
+      "norm_label": "neuralcontroller.java"
+    },
+    {
+      "label": "NeuralController",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L16",
+      "id": "controller_neuralcontroller_neuralcontroller",
+      "community": 0,
+      "norm_label": "neuralcontroller"
+    },
+    {
+      "label": ".calculaJugadaRaya()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L20",
+      "id": "controller_neuralcontroller_neuralcontroller_calculajugadaraya",
+      "community": 0,
+      "norm_label": ".calculajugadaraya()"
+    },
+    {
+      "label": "MundoRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L20",
+      "id": "mundorequest",
+      "community": 0,
+      "norm_label": "mundorequest"
+    },
+    {
+      "label": "ResponseEntity",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L20",
+      "id": "responseentity",
+      "community": 0,
+      "norm_label": "responseentity"
+    },
+    {
+      "label": "PostMapping",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L20",
+      "id": "postmapping",
+      "community": 0,
+      "norm_label": "postmapping"
+    },
+    {
+      "label": ".calculaJugadaGatos()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L25",
+      "id": "controller_neuralcontroller_neuralcontroller_calculajugadagatos",
+      "community": 0,
+      "norm_label": ".calculajugadagatos()"
+    },
+    {
+      "label": ".calculaJugadaDamas()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L30",
+      "id": "controller_neuralcontroller_neuralcontroller_calculajugadadamas",
+      "community": 0,
+      "norm_label": ".calculajugadadamas()"
+    },
+    {
+      "label": ".calculaJugada()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L35",
+      "id": "controller_neuralcontroller_neuralcontroller_calculajugada",
+      "community": 0,
+      "norm_label": ".calculajugada()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L35",
+      "id": "src_main_java_es_jastxz_micro_neural_controller_neuralcontroller_java_string",
+      "community": 0,
+      "norm_label": "string"
+    },
+    {
+      "label": ".datosNoValidos()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L81",
+      "id": "controller_neuralcontroller_neuralcontroller_datosnovalidos",
+      "community": 0,
+      "norm_label": ".datosnovalidos()"
+    },
+    {
+      "label": "ErrorResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/ErrorResponse.java",
+      "source_location": "L1",
+      "id": "model_errorresponse",
+      "community": 8,
+      "norm_label": "errorresponse.java"
+    },
+    {
+      "label": "ErrorResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/ErrorResponse.java",
+      "source_location": "L7",
+      "id": "model_errorresponse_errorresponse",
+      "community": 8,
+      "norm_label": "errorresponse"
+    },
+    {
+      "label": ".ErrorResponse()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/ErrorResponse.java",
+      "source_location": "L17",
+      "id": "model_errorresponse_errorresponse_errorresponse",
+      "community": 8,
+      "norm_label": ".errorresponse()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/ErrorResponse.java",
+      "source_location": "L17",
+      "id": "src_main_java_es_jastxz_micro_neural_model_errorresponse_java_string",
+      "community": 8,
+      "norm_label": "string"
+    },
+    {
+      "label": "GlobalRequest.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/GlobalRequest.java",
+      "source_location": "L1",
+      "id": "model_globalrequest",
+      "community": 11,
+      "norm_label": "globalrequest.java"
+    },
+    {
+      "label": "GlobalRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/GlobalRequest.java",
+      "source_location": "L7",
+      "id": "model_globalrequest_globalrequest",
+      "community": 11,
+      "norm_label": "globalrequest"
+    },
+    {
+      "label": "MundoRequest.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/MundoRequest.java",
+      "source_location": "L1",
+      "id": "model_mundorequest",
+      "community": 12,
+      "norm_label": "mundorequest.java"
+    },
+    {
+      "label": "MundoRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/MundoRequest.java",
+      "source_location": "L6",
+      "id": "model_mundorequest_mundorequest",
+      "community": 12,
+      "norm_label": "mundorequest"
+    },
+    {
+      "label": "TableroResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/TableroResponse.java",
+      "source_location": "L1",
+      "id": "model_tableroresponse",
+      "community": 13,
+      "norm_label": "tableroresponse.java"
+    },
+    {
+      "label": "TableroResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/TableroResponse.java",
+      "source_location": "L6",
+      "id": "model_tableroresponse_tableroresponse",
+      "community": 13,
+      "norm_label": "tableroresponse"
+    },
+    {
+      "label": "UserRequest.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/UserRequest.java",
+      "source_location": "L1",
+      "id": "model_userrequest",
+      "community": 14,
+      "norm_label": "userrequest.java"
+    },
+    {
+      "label": "UserRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/UserRequest.java",
+      "source_location": "L7",
+      "id": "model_userrequest_userrequest",
+      "community": 14,
+      "norm_label": "userrequest"
+    },
+    {
+      "label": "GlobalRequestRepo.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/repo/GlobalRequestRepo.java",
+      "source_location": "L1",
+      "id": "repo_globalrequestrepo",
+      "community": 5,
+      "norm_label": "globalrequestrepo.java"
+    },
+    {
+      "label": "GlobalRequestRepo",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/repo/GlobalRequestRepo.java",
+      "source_location": "L6",
+      "id": "repo_globalrequestrepo_globalrequestrepo",
+      "community": 5,
+      "norm_label": "globalrequestrepo"
+    },
+    {
+      "label": "UserRequestRepo.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/repo/UserRequestRepo.java",
+      "source_location": "L1",
+      "id": "repo_userrequestrepo",
+      "community": 9,
+      "norm_label": "userrequestrepo.java"
+    },
+    {
+      "label": "UserRequestRepo",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_neural/repo/UserRequestRepo.java",
+      "source_location": "L6",
+      "id": "repo_userrequestrepo_userrequestrepo",
+      "community": 9,
+      "norm_label": "userrequestrepo"
+    },
+    {
+      "label": "MicroNeuralApplicationTests.java",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/micro_neural/MicroNeuralApplicationTests.java",
+      "source_location": "L1",
+      "id": "micro_neural_microneuralapplicationtests",
+      "community": 7,
+      "norm_label": "microneuralapplicationtests.java"
+    },
+    {
+      "label": "MicroNeuralApplicationTests",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/micro_neural/MicroNeuralApplicationTests.java",
+      "source_location": "L6",
+      "id": "micro_neural_microneuralapplicationtests_microneuralapplicationtests",
+      "community": 7,
+      "norm_label": "microneuralapplicationtests"
+    },
+    {
+      "label": ".contextLoads()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/micro_neural/MicroNeuralApplicationTests.java",
+      "source_location": "L9",
+      "id": "micro_neural_microneuralapplicationtests_microneuralapplicationtests_contextloads",
+      "community": 7,
+      "norm_label": ".contextloads()"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/micro_neural/MicroNeuralApplicationTests.java",
+      "source_location": "L9",
+      "id": "test",
+      "community": 7,
+      "norm_label": "test"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/MicroNeuralApplication.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "micro_neural_microneuralapplication",
+      "target": "micro_neural_microneuralapplication_microneuralapplication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/MicroNeuralApplication.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "micro_neural_microneuralapplication_microneuralapplication",
+      "target": "micro_neural_microneuralapplication_microneuralapplication_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/MicroNeuralApplication.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "micro_neural_microneuralapplication_microneuralapplication_main",
+      "target": "src_main_java_es_jastxz_micro_neural_microneuralapplication_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/aspect/LoggerAspect.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "aspect_loggeraspect",
+      "target": "around",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/aspect/LoggerAspect.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "aspect_loggeraspect",
+      "target": "aspect_loggeraspect_loggeraspect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/aspect/LoggerAspect.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "aspect_loggeraspect",
+      "target": "proceedingjoinpoint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/aspect/LoggerAspect.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "aspect_loggeraspect_loggeraspect",
+      "target": "aspect_loggeraspect_loggeraspect_logexecutiontime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/aspect/LoggerAspect.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "aspect_loggeraspect_loggeraspect_logexecutiontime",
+      "target": "around",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/aspect/LoggerAspect.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "aspect_loggeraspect_loggeraspect_logexecutiontime",
+      "target": "object",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/aspect/LoggerAspect.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "aspect_loggeraspect_loggeraspect_logexecutiontime",
+      "target": "proceedingjoinpoint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "filter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "filterchain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "globalrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "globalrequestrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "httpservletrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "servletrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "servletresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "userrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "userrequestrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_createnewglobalrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_createnewuserrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_getclientip",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_istimewindowexpired",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_requestslimitfilter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_sendratelimitresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "filter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_requestslimitfilter",
+      "target": "globalrequestrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_requestslimitfilter",
+      "target": "userrequestrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_createnewglobalrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_createnewuserrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_getclientip",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_istimewindowexpired",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_sendratelimitresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "filterchain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "servletrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "servletresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L118",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_sendratelimitresponse",
+      "target": "servletresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L88",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_createnewglobalrequest",
+      "target": "globalrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/repo/GlobalRequestRepo.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "repo_globalrequestrepo",
+      "target": "globalrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L96",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_createnewuserrequest",
+      "target": "src_main_java_es_jastxz_micro_neural_components_requestslimitfilter_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L96",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_createnewuserrequest",
+      "target": "userrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L104",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_getclientip",
+      "target": "src_main_java_es_jastxz_micro_neural_components_requestslimitfilter_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L118",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_sendratelimitresponse",
+      "target": "src_main_java_es_jastxz_micro_neural_components_requestslimitfilter_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/repo/UserRequestRepo.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "repo_userrequestrepo",
+      "target": "userrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/components/RequestsLimitFilter.java",
+      "source_location": "L104",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_getclientip",
+      "target": "httpservletrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/config/Configuration.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "config_configuration",
+      "target": "config_configuration_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "controller_neuralcontroller",
+      "target": "controller_neuralcontroller_neuralcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "controller_neuralcontroller",
+      "target": "mundorequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "controller_neuralcontroller",
+      "target": "postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "controller_neuralcontroller",
+      "target": "responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "controller_neuralcontroller_neuralcontroller",
+      "target": "controller_neuralcontroller_neuralcontroller_calculajugada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "controller_neuralcontroller_neuralcontroller",
+      "target": "controller_neuralcontroller_neuralcontroller_calculajugadadamas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "controller_neuralcontroller_neuralcontroller",
+      "target": "controller_neuralcontroller_neuralcontroller_calculajugadagatos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "controller_neuralcontroller_neuralcontroller",
+      "target": "controller_neuralcontroller_neuralcontroller_calculajugadaraya",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "controller_neuralcontroller_neuralcontroller",
+      "target": "controller_neuralcontroller_neuralcontroller_datosnovalidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugadaraya",
+      "target": "controller_neuralcontroller_neuralcontroller_calculajugada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugadaraya",
+      "target": "mundorequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugadaraya",
+      "target": "postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugadaraya",
+      "target": "responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugada",
+      "target": "mundorequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugadadamas",
+      "target": "mundorequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugadagatos",
+      "target": "mundorequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L81",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_neuralcontroller_neuralcontroller_datosnovalidos",
+      "target": "mundorequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugada",
+      "target": "responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugadadamas",
+      "target": "responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugadagatos",
+      "target": "responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugadadamas",
+      "target": "postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugadagatos",
+      "target": "postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugadagatos",
+      "target": "controller_neuralcontroller_neuralcontroller_calculajugada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugadadamas",
+      "target": "controller_neuralcontroller_neuralcontroller_calculajugada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugada",
+      "target": "controller_neuralcontroller_neuralcontroller_datosnovalidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_neuralcontroller_neuralcontroller_calculajugada",
+      "target": "src_main_java_es_jastxz_micro_neural_controller_neuralcontroller_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/controller/NeuralController.java",
+      "source_location": "L81",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_neuralcontroller_neuralcontroller_datosnovalidos",
+      "target": "src_main_java_es_jastxz_micro_neural_controller_neuralcontroller_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/ErrorResponse.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "model_errorresponse",
+      "target": "model_errorresponse_errorresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/ErrorResponse.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "model_errorresponse_errorresponse",
+      "target": "model_errorresponse_errorresponse_errorresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/ErrorResponse.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "model_errorresponse_errorresponse_errorresponse",
+      "target": "src_main_java_es_jastxz_micro_neural_model_errorresponse_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/GlobalRequest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "model_globalrequest",
+      "target": "model_globalrequest_globalrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/MundoRequest.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "model_mundorequest",
+      "target": "model_mundorequest_mundorequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/TableroResponse.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "model_tableroresponse",
+      "target": "model_tableroresponse_tableroresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/model/UserRequest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "model_userrequest",
+      "target": "model_userrequest_userrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/repo/GlobalRequestRepo.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "repo_globalrequestrepo",
+      "target": "repo_globalrequestrepo_globalrequestrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_neural/repo/UserRequestRepo.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "repo_userrequestrepo",
+      "target": "repo_userrequestrepo_userrequestrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/micro_neural/MicroNeuralApplicationTests.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "micro_neural_microneuralapplicationtests",
+      "target": "micro_neural_microneuralapplicationtests_microneuralapplicationtests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/micro_neural/MicroNeuralApplicationTests.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "micro_neural_microneuralapplicationtests",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/micro_neural/MicroNeuralApplicationTests.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "micro_neural_microneuralapplicationtests_microneuralapplicationtests",
+      "target": "micro_neural_microneuralapplicationtests_microneuralapplicationtests_contextloads",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/micro_neural/MicroNeuralApplicationTests.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "micro_neural_microneuralapplicationtests_microneuralapplicationtests_contextloads",
+      "target": "test",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "3211de4ea8bed34939eeffb5e7bfbf85069b0271"
+}
